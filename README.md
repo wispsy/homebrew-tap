@@ -16,6 +16,7 @@ brew tap wispsy/tap
 |---|---|---|
 | **[clownfish](Formula/clownfish.rb)** | Lightweight, zero-dependency modern terminal emulator | `brew install clownfish` |
 | **[evok](Formula/evok.rb)** | Pure-Python high-performance package manager and virtualization runtime | `brew install evok` |
+| **[immunity](Formula/immunity.rb)** | Ahead-of-time (AOT) compiled Zsh plugin manager in Python | `brew install immunity` |
 
 ## Available Casks
 
