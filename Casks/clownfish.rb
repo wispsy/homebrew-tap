@@ -1,6 +1,6 @@
 cask "clownfish" do
-  version "0.5.0"
-  sha256 "1b5308030f272e7614bca20cb97be80b52ffe2cf35ae21a903ed54e1167f940b"
+  version "0.6.3"
+  sha256 "8511311e72841cbbeb20f38a7924f8f3256f3ad0c3e35ea1643923307bcb6eba"
 
   url "https://github.com/wispsy/clownfish/releases/download/v#{version}/Clownfish-v#{version}-macos.zip"
   name "Clownfish"
