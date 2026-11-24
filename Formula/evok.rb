@@ -3,8 +3,8 @@ class Evok < Formula
 
   desc "Pure-Python high-performance package manager and virtualization runtime"
   homepage "https://github.com/wispsy/evok"
-  url "https://files.pythonhosted.org/packages/source/e/evok/evok-0.1.0.tar.gz"
-  sha256 "77a2ab2ee59ae6403feb48dc58a3d702794e44d0cdc0713c3ac0ee2fbda304a3"
+  url "https://files.pythonhosted.org/packages/source/e/evok/evok-0.1.2.tar.gz"
+  sha256 "ab99cdd748c74b2d0202eb3dd30c1b3e1f0544509b50e9dffd6547ec01761abd"
   license "MIT"
 
   depends_on "python@3.14"
@@ -14,9 +14,9 @@ class Evok < Formula
   end
 
   test do
-    assert_match "evok 0.1.0", shell_output("#{bin}/ev --version")
-    assert_match "evok 0.1.0", shell_output("#{bin}/evok --version")
+    assert_match "evok 0.1.2", shell_output("#{bin}/ev --version")
+    assert_match "evok 0.1.2", shell_output("#{bin}/evok --version")
     assert_match "evok version:", shell_output("#{bin}/ev info")
-    system libexec/"bin/python", "-c", "import evok; assert evok.__version__ == '0.1.0'"
+    system libexec/"bin/python", "-c", "import evok; assert evok.__version__ == '0.1.2'"
   end
 end
