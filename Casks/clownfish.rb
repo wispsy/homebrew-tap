@@ -1,13 +1,11 @@
 cask "clownfish" do
-  version "0.6.5"
-  sha256 "d8b88b99726e62cfe23e21802cc633acf8958b5abc2ee203d118cfc9d9e0a2eb"
+  version "0.7.0"
+  sha256 "663ad5913fec5f14298e6437174229434fb63057873e9a1d64aa8cc6e62ba857"
 
   url "https://github.com/wispsy/clownfish/releases/download/v#{version}/Clownfish-v#{version}-macos.zip"
   name "Clownfish"
   desc "Lightweight, zero-dependency modern terminal emulator"
   homepage "https://github.com/wispsy/clownfish"
-
-  depends_on arch: :arm64
 
   app "Clownfish.app"
   binary "#{appdir}/Clownfish.app/Contents/MacOS/Clownfish", target: "clownfish"
